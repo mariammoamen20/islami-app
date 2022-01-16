@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/font/font.xml" value="0.1425925925925926" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-v21/activity_sura_name.xml" value="0.20416666666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_sura_name.xml" value="0.25" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/content_sura_name.xml" value="0.21810699588477367" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/fragment_hadeath.xml" value="0.20416666666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/fragment_quran.xml" value="0.22" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/hadeath_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/quran_ayat_name_item.xml" value="0.18854166666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/quran_suran_name_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/verse_item.xml" value="0.1" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
