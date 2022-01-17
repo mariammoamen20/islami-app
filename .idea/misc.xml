@@ -5,12 +5,15 @@
       <map>
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/font/font.xml" value="0.1425925925925926" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-v21/activity_sura_name.xml" value="0.20416666666666666" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_hadeath_details.xml" value="0.18" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_sura_name.xml" value="0.25" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/content_hadeath_details.xml" value="0.16" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/content_sura_name.xml" value="0.21810699588477367" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/fragment_hadeath.xml" value="0.20416666666666666" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/fragment_quran.xml" value="0.22" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/hadeath_details_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/hadeath_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/quran_ayat_name_item.xml" value="0.18854166666666666" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/quran_suran_name_item.xml" value="0.20416666666666666" />

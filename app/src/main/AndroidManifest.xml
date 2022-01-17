@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Islami">
         <activity
+            android:name=".hadeath.HadeathDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_hadeath_details"
+            android:theme="@style/Theme.Islami.NoActionBar"
+            />
+        <activity
             android:name=".quran.suraname.SuraNameActivity"
             android:exported="false"
             android:label="@string/title_activity_sura_name"
-            android:theme="@style/Theme.Islami.NoActionBar"
             android:parentActivityName=".MainActivity"
-            />
+            android:theme="@style/Theme.Islami.NoActionBar" />
         <activity
             android:name=".splash.SplashActivity"
             android:exported="true"

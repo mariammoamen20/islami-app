@@ -1,5 +1,6 @@
 package com.example.islami.hadeath
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
+import com.example.islami.Constant
 import com.example.islami.R
 
 class HadeathFragment : Fragment() {
@@ -79,7 +81,10 @@ class HadeathFragment : Fragment() {
         hadeath_adapter = HadeathAdapter(hadeat_list)
         hadeath_adapter.on_item_click_listener=object :HadeathAdapter.OnItemClickListener{
             override fun onItemClick(position: Int, name: String) {
-                Toast.makeText(requireContext(),name,Toast.LENGTH_SHORT).show()
+                val intent = Intent(context,HadeathDetailsActivity::class.java)
+                intent.putExtra(Constant.EXTRA_HADEATH_NAME,name)
+                intent.putExtra(Constant.EXTRA_HADEATH_POSITION,position)
+                startActivity(intent)
             }
 
         }
