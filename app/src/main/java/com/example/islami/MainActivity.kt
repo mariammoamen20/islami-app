@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.islami.hadeath.HadeathFragment
 import com.example.islami.quran.suraname.QuranFragment
+import com.example.islami.sebha.SebhaFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             }else if(it.itemId == R.id.hadeath_screen){
                 pushFragment(HadeathFragment())
             }else if(it.itemId==R.id.sebha_screen){
-
+               pushFragment(SebhaFragment())
             }else if(it.itemId==R.id.radio_screen){
 
             }
