@@ -5,4 +5,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="transpernt">#00000000</color>
+    <color name="opacity_gold_color">#80B7935F</color>
+    <color name="gray_dark">#242424</color>
 </resources>

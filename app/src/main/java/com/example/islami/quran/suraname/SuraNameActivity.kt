@@ -14,6 +14,7 @@ class SuraNameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sura_name)
+
         sura_name_title = findViewById(R.id.sura_name_title)
         sura_deatils = findViewById(R.id.sura_details_recycler_view)
         setSupportActionBar(findViewById(R.id.toolbar))
