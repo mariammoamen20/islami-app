@@ -29,7 +29,7 @@ class SebhaFragment : Fragment() {
         sebha_body_image = view.findViewById(R.id.body_sebha_logo)
         sebha_button = view.findViewById(R.id.tasbehat_number_button)
         azkar_text = view.findViewById(R.id.azkar_text)
-        sebha_button.text = ""+0
+        sebha_button.text = "" + 0
         azkar_text.text = "سبحان الله "
         rotateImage()
     }

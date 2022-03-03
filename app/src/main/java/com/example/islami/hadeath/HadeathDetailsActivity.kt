@@ -16,10 +16,13 @@ class HadeathDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hadeath_details)
+
         hadeath_title=findViewById(R.id.hadeth_details_text)
         hadeath_recycler_view = findViewById(R.id.hadeath_details_recycler_view)
+
         setSupportActionBar(findViewById(R.id.toolbar))
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         val hadeath_name:String = intent.getStringExtra(Constant.EXTRA_HADEATH_NAME) as String
         val hadeath_postiton : Int = intent.getIntExtra(Constant.EXTRA_HADEATH_POSITION,-1)
         hadeath_title.setText(hadeath_name)
@@ -29,6 +32,7 @@ class HadeathDetailsActivity : AppCompatActivity() {
     }
 
     private fun readHadeath(position: Int) {
+
         val file_name = "${position+115}.txt"
         val file_content = assets.open(file_name).bufferedReader().use { it.readText() }
         val hadeath:List<String> = file_content.split("/n")
