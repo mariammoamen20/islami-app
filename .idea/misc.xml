@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/drawable-anydpi/ic_back.xml" value="0.1" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/drawable/custom_button.xml" value="0.1" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/drawable/custom_text.xml" value="0.1" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/font/font.xml" value="0.1425925925925926" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-land/activity_hadeath_details_landscape.xml" value="0.18584070796460178" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-land/activity_main_landscape.xml" value="0.3182291666666667" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-land/activity_splash_landscape.xml" value="0.3182291666666667" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-land/fragment_quran_landscape.xml" value="0.1342062193126023" />
+        <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-land/fragment_sebha_landscape.xml" value="0.2765957446808511" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout-v21/activity_sura_name.xml" value="0.20416666666666666" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_hadeath_details.xml" value="0.18" />
         <entry key="..\:/Route/Android/my_projcts/Islami/islami_project/app/src/main/res/layout/activity_main.xml" value="0.2" />
