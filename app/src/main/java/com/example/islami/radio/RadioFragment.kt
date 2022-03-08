@@ -28,7 +28,7 @@ class RadioFragment : Fragment() {
     lateinit var previous_button: ImageView
     lateinit var next_button: ImageView
     lateinit var progress_bar: ProgressBar
-    lateinit var item_radio_lits: ArrayList<RadiosItem>
+    var item_radio_lits= ArrayList<RadiosItem>()
     var position = 100
     var media_player = MediaPlayer()
 
@@ -63,7 +63,10 @@ class RadioFragment : Fragment() {
             override fun onResponse(call: Call<RadioResponse>, response: Response<RadioResponse>) {
                 //Log.e("onResponse" , response.body().toString())
                 item_radio_lits = response.body()?.radios as ArrayList<RadiosItem>
-                radio_channel_name.text = item_radio_lits[0].name
+
+                    radio_channel_name.text = item_radio_lits[0].name
+
+
 
 
             }
