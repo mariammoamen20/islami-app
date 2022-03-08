@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/islami_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/elmessiri_regular"
+        android:padding="2dp"
+        android:text="@string/islami_text"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/body_sebha_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/body_sebha_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/islami_text" />
+
+    <TextView
+        android:id="@+id/tasbehat_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rlmessir_semibold"
+        android:text="@string/tasbeh_number"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/body_sebha_logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tasbehat_number_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/opacity_gold_color"
+        android:fontFamily="@font/elmessiri_regular"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tasbehat_number"
+        app:layout_constraintWidth_percent="0.18"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/azkar_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_text"
+        android:fontFamily="@font/koufi"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tasbehat_number_button"
+        app:layout_constraintWidth_percent="0.35"
+        tools:text="سبحان اللله" />
+</androidx.constraintlayout.widget.ConstraintLayout>
